@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
 import backgroundImage from "../assets/project-background.jpeg";
 import maizeTasselImage from "../assets/maizeTassel-image.png";
-import propertyListingImage from "../../../meiji.png";
-import financialLoanImage from "../../../streamlit-app.png";
+import propertyListingImage from "../assets/meiji.png";
+import financialLoanImage from "../assets/streamlit-app.png";
 import { Carousel } from "flowbite-react";
 
 function Projects() {
