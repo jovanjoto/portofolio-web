@@ -84,7 +84,7 @@ function Hero() {
                   <motion.a
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    href="/Jovan_Resume.pdf"
+                    href="../assets/Jovan_Resume.pdf"
                     download={true}
                     className="bg-white hover:bg-gray-300 text-black border-[px] border-black rounded-full font-bold py-2 px-4 transition duration-300"
                   >
