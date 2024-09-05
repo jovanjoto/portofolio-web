@@ -19,9 +19,9 @@ function Contact() {
       toast.error("Please fill in all fields!", { position: "bottom-right" });
       return;
     }
-    console.log(formData);
+    console.log(formData); 
     try {
-      const response = await axios.post("/api/send-email", {
+      const response = await axios.post("https://portofolio-web-w294.onrender.com/api/send-email", {
         name: formData.name,
         email: formData.email,
         message: formData.message,
