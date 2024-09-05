@@ -2,12 +2,15 @@ import os
 from flask import Flask , request
 from config import app, mail
 from flask_mail import Message
+from flask_cors import CORS
 
 # flask --app app.py --debug run 
 # app = Flask(__name__)
 # app.config.from_object(Config)
 # mail = Mail(app)
 # email_schema = EmailSchema()
+
+CORS(app, resources={r"/api/*": {"origins": "https://portofolio-web-smoky.vercel.app"}})
 
 @app.route('/api/test')
 def test():
